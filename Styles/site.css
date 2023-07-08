@@ -46,10 +46,10 @@ nav a {
 .header{
     background-color: #FFF8F3;
 }
-.bannar{
+.banner{
     padding: 30px 30px 30px 200px;
     display: flex;
 }
-.bannar .profile-pic{
+.banner .profile-pic{
     width: 500px;
 }
