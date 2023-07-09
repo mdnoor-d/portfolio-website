@@ -6,6 +6,7 @@ body {
 .orange-text {
   color: orangered;
 }
+
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
@@ -15,43 +16,103 @@ body {
   font-weight: 700;
   padding: 15px 35px;
 }
+
 /*nav style*/
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 200px;
-  
+  margin-left: 30px;
+  margin-right: 20px;
 }
+
 .site-title {
   color: #181818;
   font-size: 45px;
   font-style: normal;
   font-weight: 800px;
 }
+
 nav > ul {
   display: flex;
-  
+
   align-items: center;
 }
+
 nav li {
   list-style: none;
-  margin-right: 50px;
+  margin-right: 20px;
+  
 }
+
 nav a {
   text-decoration: none;
   color: #474747;
 }
+
 /*header style*/
-.header{
-    background-color: #FFF8F3;
-background-image: url('../images/header_bg.png');
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+background-size: 600px 400px;
+
 }
 
-.banner{
-    padding: 30px 30px 30px 200px;
-    display: flex;
+.banner {
+  padding: 30px;
+  display: flex;
+  
 }
-.banner .profile-pic{
-    width: 500px;
+
+.banner .profile-pic {
+  width: 750px;
+  margin-bottom: -30px;
 }
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+
+.banner-title {
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  margin-left: -3px;
+  color: #474747;
+}
+
+.b-details {
+  width: 585px;
+  height: 125px;
+  text-align: justify;
+  font-weight: 500;
+}
+
+/* main section*/
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.section-details {
+  width: 1000px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.about {
+  padding: 120px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 90px 0px;
+  height: 250px;
+}
+
