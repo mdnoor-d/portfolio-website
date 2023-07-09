@@ -103,9 +103,10 @@ background-size: 600px 400px;
 }
 
 .section-details {
-  width: 1000px;
-  margin-left: 60px;
-  text-align: center;
+  width: 800px;
+  margin-left: 50px;
+  text-align:center ;
+  font-weight: 100;
 }
 
 .about {
@@ -115,4 +116,15 @@ background-size: 600px 400px;
   margin: 90px 0px;
   height: 250px;
 }
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
